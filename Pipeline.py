@@ -62,7 +62,7 @@ with DAG('Immobilienscout24 Pipeline',description='Immobilienscout24',schedule_i
         """\
     #### Load task
     A simple Load task which takes in the result of the Transform task, by reading it
-    from xcom and instead of saving it to end user review, just prints it out.
+   and save it to elasticsearch databases and as a csv files in the corresponding directory
     """
     )
         
@@ -74,7 +74,7 @@ with DAG('Immobilienscout24 Pipeline',description='Immobilienscout24',schedule_i
     success_task.doc_md = dedent(
         """\
     #### success task
-    A simple sucess task which send an email, when the pipeline doesn't work fine
+    A simple task which send an email, if the pipeline doesn't work fine
     """
     )    
     
