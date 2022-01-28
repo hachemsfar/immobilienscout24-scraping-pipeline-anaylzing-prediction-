@@ -14,4 +14,4 @@ The script will extract from all posts since the last post that was extracted.
 ![plot](https://github.com/hachemsfar/immobilienscout24-scraping-pipeline-anaylzing-prediction-/blob/main/mongodb%20database.JPG)
 
 
-**Keywords:** Data engineer/Data science ; Machine Learning ; Web scraping; Data Visualization ; Python ; Airflow ; Mongodb ; matplotlib ; linear regression ; csv format ; 
+**Keywords:** Data engineer/Data science ; Machine Learning ; Web scraping; Data Visualization ; Python ; Airflow ; Mongodb ; matplotlib ; linear regression ; CSV format 
