@@ -1,4 +1,4 @@
-# immobilienscout24 Scraping:
+# immobilienscout24:
 The goal of this project is to extract data from immobilienscout24 website.
 These are the pipeline steps:
 - **Extract_Transform.py**: extracting all usefull information about every post (appartment/houses and for both buying/renting) and save them in a dictionnary
